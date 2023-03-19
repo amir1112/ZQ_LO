@@ -66,7 +66,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "رمـز السـورس لا تغيرهـا ابـد اضغط /skip للتخطـي",
-      "value": "Rep",
+      "value": "Repthon",
       "required": false
     }
   },
