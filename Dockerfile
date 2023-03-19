@@ -1,7 +1,7 @@
-FROM rogerpq/Ralls_USERBOT:alpine
+FROM RepthonArabic/RepthonAr:alpine
 
 #clonning repo 
-RUN git clone https://github.com/rogerpq/Ralls_USERBOT.git /root/userbot
+RUN git clone https://github.com/RepthonArabic/RepthonAr.git /root/userbot
 #working directory 
 WORKDIR /root/userbot
 
