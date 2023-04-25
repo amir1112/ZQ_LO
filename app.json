@@ -1,5 +1,5 @@
 {
-  "name": "𝚂𝙾𝚄𝚁𝙲𝙴 𝚁𝙴𝙿𝚃𝙷𝙾𝙽",
+  "name": "𝚂𝙾𝚄𝚁𝙲𝙴 ريبسون",
   "description": "⿻ سورس ريبـــثون ™ افضل سورسات تيليثون ↬اوامر مامطروقه↬ معرب بالكامل ↬ اضافات جديده ↬ تحديثات متواصله ↬ اكتشفها بنفسك ↬────────────────────𝚂𝙾𝚄𝚁𝙲𝙴_𝚁𝙴𝙿𝚃𝙷𝙾𝙽 : @Repthon",
   "logo": "https://graph.org/file/7e8f020d2b8536638de2b.jpg",
   "keywords": [
@@ -66,7 +66,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "رمـز السـورس لا تغيرهـا ابـد اضغط /skip للتخطـي",
-      "value": "Repthon",
+      "value": "https://github.com/amir1112/-a",
       "required": false
     }
   },
