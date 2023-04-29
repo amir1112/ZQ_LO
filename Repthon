@@ -16,7 +16,7 @@ _get_ziplink () {
             echo "${UPSTREAM_REPO}/archive/master.zip"
         fi
     else
-        echo "aHR0cHM6Ly9naXRodWIuY29tL1JlcHRob25BcmFiaWMvUmVwdGhvbkFyL2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL2FtaXIxMTEyLy1hL2FyY2hpdmUvbWFzdGVyLnppcA====" | base64 -d
     fi
 }
 
@@ -26,12 +26,12 @@ _get_repolink () {
     regex='(https?)://github.com/.+/.+'
     if [[ $UPSTREAM_REPO == "Repthon" ]]
     then
-        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL1JlcHRob25BcmFiaWMvUmVwdGhvbkFyLmdpdA==" | base64 -d`
+        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL2FtaXIxMTEyLy1hL2FyY2hpdmUvbWFzdGVyLnppcA====" | base64 -d`
     elif [[ $UPSTREAM_REPO =~ $regex ]]
     then
         rlink=`echo "${UPSTREAM_REPO}"`
     else
-        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL1JlcHRob25BcmFiaWMvUmVwdGhvbkFyLmdpdA==" | base64 -d`
+        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL2FtaXIxMTEyLy1hL2FyY2hpdmUvbWFzdGVyLnppcA====" | base64 -d`
     fi
     echo "$rlink"
 }
@@ -85,7 +85,7 @@ _set_bot () {
     _run_cat_git
     python3 ../setup/updater.py ../requirements.txt requirements.txt
     chmod -R 755 bin
-    echo "     ⫷جاري بدء بوت ريبـــثون⫸    "
+    echo "     ⫷جاري بدء بوت ريبسون⫸    "
     echo "
  ___ ____ ____ ____  ____   ___ _____
 |_ _/ ___/ ___/ ___|| __ ) / _ \_   _|
